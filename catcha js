@@ -1,0 +1,4 @@
+
+<img id='captcha_img' src='captcha_show.php?img=<?php echo time();?>'/> <a href="#" onclick="document.getElementById('captcha_img').src='captcha_show.php?img=' + Math.random(); return false"><img src="icon_refresh.png"></a><br>
+  <?php echo $lang['Please insert captcha code here'];?><br>
+  <input type="text" class="form-control" name="thaicode" placeholder="type captcha here" required>
